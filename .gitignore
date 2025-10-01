@@ -1,0 +1,31 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+### IntelliJ IDEA ###
+.idea
+*.iml
+
+### Visual Studio Code ###
+.vscode
+
+### Other
+**/.DS_Store
+**/*.png
+.env
+
+/state/

@@ -16,4 +16,6 @@ test("logIn-logOut", async ({ page }) => {
   const logoutButton = page.getByRole("link", { name: "Odhlásit" });
   await logoutButton.waitFor();
   await logoutButton.click();
+
+  await expect(page.getByRole("link", { name: "Přihlásit" })).toBeVisible();
 });

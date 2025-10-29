@@ -21,7 +21,7 @@ test.describe("Registration", () => {
     await expect(page.getByRole("alert")).not.toBeVisible();
   });
 
-  test("registrace - uzivatel již existuje", async ({ page }) => {
+  test("registrace - uzivatel jiz existuje", async ({ page }) => {
     const nameField = page.locator('input[name="name"]');
     await nameField.fill("Zuzka Volfova");
     const emailField = page.locator('input[name="email"]');
